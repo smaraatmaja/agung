@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galeri kita</title>
+  <link rel="shortcut icon" href="foto-foto/happy_birthday-removebg-preview.png" type="image/x-icon">
+  <link rel="stylesheet" href="foto.css">
+</head>
+<body>
+
+  <header>
+    <h1>Galeri kita 📸</h1>
+  </header>
+
+  <!-- Filter -->
+  <div class="filters">
+    <button class="active" data-filter="all">Semua</button>
+    <button data-filter="view">view</button>
+    <button data-filter="kita">kita</button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery" id="gallery">
+    <div class="photo" data-category="view"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="view"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="view"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="view"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+    <div class="photo" data-category="kita"><img src="foto-foto/hotel.JPG"></div>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <img id="lightbox-img" src="" alt="preview">
+  </div>
+  <div class="tombol">
+    <a href="profile.html"><button id="celebrateBtn">⬅</button></a>
+    <a href="kocak.html"><button id="nextBtn">➡</button></a>
+  </div>
+
+  <script src="foto.js"></script>
+</body>
+</html>
