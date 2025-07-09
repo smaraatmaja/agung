@@ -43,14 +43,15 @@ body {
 
 /* Tombol */
 .container button {
-  background-color: #2563eb;
+  cursor: pointer;
+  background: #D50B8B;
+  box-shadow: 0 0 15px #6a057288;
+  transition: transform 0.3s ease;
   color: #fff;
   padding: 0.6rem 1.5rem;
   font-size: 1rem;
   border: none;
   border-radius: 0.75rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .container button:hover {
