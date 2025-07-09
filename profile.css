@@ -3,8 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: arial;
   background-color: #FFC1DA;
+  font-family: 'Pacifico', cursive;
   display: flex;
   flex-direction: #FCD8CD;
   align-items: center;
@@ -53,9 +53,11 @@ h1 {
 }
 
 .tulisan p {
+  .tulisan p {
   font-size: 1.2rem;
   text-shadow: 1px 1px 5px #6a0572;
-  font-family: cursive;
+  font-family: arial;
+}
 }
 
 
