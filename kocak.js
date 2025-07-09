@@ -1,14 +1,6 @@
 const decisions = [
-      "Ngoding Tanpa Duduk (1 Jam).",
-      "Bikin Web Pakai Emoji Doang.",
-      "Buat Website dari Mimpi.",
-      "Ngobrol Sama Batu.",
-      "Tanya ke Google: 'Kenapa ayam menyeberang jalan?'",
-      "Ngomong Pakai Lirik Lagu selama 1 jam.",
-      "Telepon Teman, Tanya 'Mau beli rumah nggak?' Tanpa Penjelasan.",
-      "Coba minum air putih sebanyak 2 liter hari ini.",
-      "Ucapkan 'terima kasih' ke 3 orang secara random.",
-      "Berbicara Full Bahasa Inggris Palsu 5 Menit."
+      "baca no.1.",
+      "baca no.2.",
     ];
 
     let timerInterval;
