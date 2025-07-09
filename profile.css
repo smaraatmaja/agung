@@ -21,7 +21,7 @@ h1 {
 }
 
 .card {
-  background: #FFC1DA;
+  background: #FFC1DA;       /* warna transparan */
   border-radius: 20px;
   padding: 2em;
   max-width: 400px;
