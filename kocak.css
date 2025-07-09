@@ -55,7 +55,8 @@ body {
 }
 
 .container button:hover {
-  background-color: #1d4ed8;
+  background: #fcb69f;
+  color: #fff;
 }
 
 button:disabled {
@@ -65,13 +66,14 @@ button:disabled {
 
 /* Tombol Reset tambahan */
 .reset-button {
-  background-color: #e5e7eb;
-  color: #111827;
+  background: #fcb69f;
+  color: #fff;
   margin-left: 0.5rem;
 }
 
 .reset-button:hover {
-  background-color: #d1d5db;
+  background: #fcb69f;
+  color: #fff;
 }
 
 /* Grup tombol agar sejajar */
@@ -84,11 +86,12 @@ button:disabled {
 
 /* Tombol Kembali */
 .back-button {
-  background-color: #facc15;
-  color: #111827;
+  background: #fcb69f;
+  color: #fff;
 }
 
 .back-button:hover {
-  background-color: #fbbf24;
+  background: #fcb69f;
+  color: #fff;
 }
 
