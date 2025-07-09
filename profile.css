@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #FFC1DA;
-  font-family: 'Pacifico', cursive;
   display: flex;
   flex-direction: #FCD8CD;
   align-items: center;
@@ -50,6 +49,7 @@ h1 {
   font-size: 25px;
   margin-top: -18px;
   z-index: 99;
+  font-family: 'Pacifico', cursive;
 }
 
 .tulisan p {
