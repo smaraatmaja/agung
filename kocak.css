@@ -1,6 +1,6 @@
  /* Latar belakang dan layout */
 body {
-  background: linear-gradient(to bottom right, #cce4f6, #add8e6);
+  background: #FFC1DA;       /* warna transparan */
   min-height: 100vh;
   display: flex;
   align-items: center;
