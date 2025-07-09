@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Pacifico', cursive;
+  font-family: arial;
   background-color: #FFC1DA;
   display: flex;
   flex-direction: #FCD8CD;
@@ -27,9 +27,7 @@ h1 {
   padding: 2em;
   max-width: 400px;
   min-height: 1600px; /* Tambahkan tinggi minimum */
-  background: rgba(255, 255, 255, 0.2); /* transparan putih */
-  backdrop-filter: blur(0.1px);          /* efek blur */
-  -webkit-backdrop-filter: blur(10px);  /* untuk Safari */
+  background: 	rgba(255, 255, 255, 0.03);
   display: flex;
   flex-direction: column;
   align-items: center;
