@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  background: #FFC1DA;       /* warna transparan */
   color: #333;
 }
 
