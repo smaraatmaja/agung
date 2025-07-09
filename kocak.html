@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>harus Dilakukan!</title>
+  <link rel="stylesheet" href="kocak.css" />
+  <script src="kocak.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 tantangan yang harus anda lakukan!</h1>
+    <p id="decision">Klik tombol "Mulai" untuk menentukan tantanganmu!</p>
+    <p id="peringatan">HARUS DILAKUKAN!!!</p>
+    <p id="timer">Waktu: -</p>
+    <div class="button-group">
+      <button id="startBtn" onclick="handleStart()">Mulai</button>
+      <button onclick="resetDecision()" class="reset-button">Reset</button>
+      <button onclick="goBack()" class="back-button">Kembali</button>
+    </div>
+  </div>
+</body>
+</html>
