@@ -99,7 +99,7 @@ button:disabled {
 .tombol-music button {
  width: 70px;
  height: 70px;
- border-radius: 50%;
+ border-radius: 20%;
  border: none;
  background-color: #d6336c; 
  color: white;
