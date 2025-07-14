@@ -55,5 +55,26 @@
     <img src="sendiri (11) foto.jpeg" class="falling" style="right: 46%; animation-duration: 9s; animation-delay: 2s;">
     <img src="sendiri (12) foto.jpeg" class="falling" style="right: 65%; animation-duration: 10s; animation-delay: 2.5s;">
   </div>
+    <script>
+    /* play lagu */
+    window.addEventListener("load", function () {
+      const audio = document.getElementById("audio");
+      audio.play().catch((e) => {
+        console.warn("Autoplay diblokir. Silakan tekan tombol 🎵 untuk memulai.");
+      });
+    });
+  </script>
+    <audio id="audio" autoplay>
+    <source src="sempurna.mp3" type="audio/mp3">
+    Browser kamu tidak mendukung audio.
+  </audio>
+
+  <div class="tombol-music"> 
+    <button onclick="document.getElementById('audio').play()">
+      <div class="logo-music">
+        🎵
+      </div>
+    </button>
+  </div
 </body>
 </html>
