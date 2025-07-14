@@ -128,5 +128,21 @@ button:hover {
   }
 }
 
+.tombol-music .logo-music {
+  margin-left: -13px;
+}
+
+.tombol-music button:hover {
+ background-color: #732d91;
+ transform: scale(1.05);
+}
+
+.tombol-music {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+}
+
+
 
 
