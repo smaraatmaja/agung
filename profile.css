@@ -134,3 +134,31 @@ button:hover {
     opacity: 0;
   }
 }
+
+/* music */
+.tombol-music button {
+ width: 70px;
+ height: 70px;
+ border-radius: 50%;
+ border: none;
+ background-color: #d6336c; 
+ color: white;
+ cursor: pointer;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+ transition: background-color 0.3s, transform 0.2s;
+}
+
+.tombol-music .logo-music {
+  margin-left: -13px;
+}
+
+.tombol-music button:hover {
+ background-color: #732d91;
+ transform: scale(1.05);
+}
+
+.tombol-music {
+ position: fixed;
+ bottom: 20px;
+ right: 20px;
+}
