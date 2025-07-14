@@ -34,3 +34,12 @@ const confettiContainer = document.getElementById('confetti');
     setTimeout(startConfetti, 100);
   }
   startConfetti();
+
+/* play lagu */
+    window.addEventListener("load", function () {
+      const audio = document.getElementById("audio");
+      audio.play().catch((e) => {
+        console.warn("Autoplay diblokir. Silakan tekan tombol 🎵 untuk memulai.");
+      });
+    });
+
