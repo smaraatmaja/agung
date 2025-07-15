@@ -43,9 +43,28 @@ document.querySelectorAll('.photo').forEach(photo => {
 });
 
 /* play lagu */
-window.addEventListener("load", function () {
+function playMusicAndHide() {
   const audio = document.getElementById("audio");
-  audio.play().catch((e) => {
-    console.warn("Autoplay diblokir. Silakan tekan tombol 🎵 untuk memulai.");
-  });
+  const musicBtn = document.getElementById("musicBtn");
+
+  audio.play(); // mainkan lagu
+  musicBtn.style.display = "none"; // sembunyikan tombol
+
+  // Simpan status bahwa tombol sudah ditekan
+  sessionStorage.setItem("musicPlayed", "true");
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  const musicBtn = document.getElementById("musicBtn");
+  const audio = document.getElementById("audio");
+
+  // Cek apakah user sudah menekan tombol sebelumnya
+  const musicPlayed = sessionStorage.getItem("musicPlayed");
+
+  if (musicPlayed === "true") {
+    musicBtn.style.display = "none";
+    audio.play(); // jika user balik ke halaman, tetap play lagu
+  } else {
+    musicBtn.style.display = "block";
+  }
 });
