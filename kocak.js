@@ -63,6 +63,18 @@ const decisions = [
       }, 1000);
     }
     /* play lagu */
+document.head.appendChild(style);
+
+function startConfetti() {
+  createConfettiPiece();
+  setTimeout(startConfetti, 100);
+}
+startConfetti();
+
+const audio = document.getElementById("bgMusic");
+const btn = document.getElementById("playMusicBtn");
+
+
 function playMusicAndHide() {
   const audio = document.getElementById("audio");
   const musicBtn = document.getElementById("musicBtn");
