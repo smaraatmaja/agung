@@ -88,4 +88,3 @@ window.addEventListener("DOMContentLoaded", () => {
     musicBtn.style.display = "block";
   }
 });
-});
